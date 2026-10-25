@@ -1,0 +1,5 @@
+"Metamod Plugin"
+{
+    "alias" "bridge"
+    "file" "addons/bridge/bin/bridge_mm_i486.so"
+}

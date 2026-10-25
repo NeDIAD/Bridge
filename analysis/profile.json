@@ -1,0 +1,52 @@
+{
+  "engine": {
+    "file": "bin/engine.so",
+    "sha256": "ed3a9112c8b8888cba700f3adc97de8a04364eac8fce4643c6efd5cace82ccdc",
+    "build_id": "95e103de0d20a070ffb3c0340e7e8397feca360d"
+  },
+  "steamclient": {
+    "file": "bin/steamclient.so",
+    "sha256": "3109e2591200961516fc18762b3fd7d208cba38c7caa569571beb1e360176f06",
+    "build_id": "4ae7119db606bb6af97157e229b87fe4db109879"
+  },
+  "sites": [
+    {
+      "name": "verify",
+      "rva": "0x4891aa",
+      "original_target": "0x1f3360",
+      "original_call": "e8b1a1d6ff",
+      "context": "7508898568ffffffe8b1a1d6ff89856cffffff83c4"
+    },
+    {
+      "name": "register",
+      "rva": "0x489325",
+      "original_target": "0x1f3810",
+      "original_call": "e8e6a4d6ff",
+      "context": "750c506a01ff7508e8e6a4d6ff8b55cc89856cffff"
+    },
+    {
+      "name": "end",
+      "rva": "0x48992d",
+      "original_target": "0x1f3f70",
+      "original_call": "e83ea6d6ff",
+      "context": "55a4ff750cff7508e83ea6d6ff8b4dcc83c41085c9"
+    }
+  ],
+  "unpatched_sites": [
+    {
+      "name": "license",
+      "rva": "0x48905a",
+      "original_target": "0x1f4120",
+      "original_call": "e8c1b0d6ff",
+      "context": "0fd655a4ff758857e8c1b0d6ff89c783c4208b45cc"
+    },
+    {
+      "name": "callback",
+      "rva": "0x239e73",
+      "original_target": "0x1f2960",
+      "original_call": "e8e88afbff",
+      "context": "688f000000ff7598e8e88afbff83c4108b458483ec"
+    }
+  ],
+  "auth_mutex_rva": "0x22ec278"
+}
